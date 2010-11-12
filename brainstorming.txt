@@ -1,0 +1,40 @@
+********************************************************************************
+Qu'est-ce qu'un langage de programmation ?
+Qu'est-ce qu'un paradigme ?
+
+***** Divers *******************************************************************
+nom
+version
+logo
+Hello World !
+
+***** Utilisation **************************************************************
+forte
+moyenne
+faible
+exotique
+
+***** Code objet ***************************************************************
+binaire
+source
+byte code
+
+***** Typage *******************************************************************
+fort/faible
+implicite/explicite
+statique/dynamique
+
+***** Programmation ************************************************************
+objet
+fonctionnelle
+procédurale
+par contrat
+impérative
+évènementielle
+déclarative
+structurée
+logique
+par contrainte
+concurrente
+recursive
+reflexive
