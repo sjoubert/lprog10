@@ -1,18 +1,38 @@
 ********************************************************************************
+* http://fr.wikipedia.org/wiki/Paradigme_%28programmation%29
+* http://fr.wikipedia.org/wiki/Langage_de_programmation
+* http://en.wikipedia.org/wiki/Programming_language
+********************************************************************************
 Qu'est-ce qu'un langage de programmation ?
 Qu'est-ce qu'un paradigme ?
 
 ***** Divers *******************************************************************
 nom
 version
+date d'apparition
 logo
 Hello World !
 
-***** Utilisation **************************************************************
+***** Non classé ***************************************************************
+gestion de la mémoire
+commentaires
+
+***** Popularité ***************************************************************
+* Comment la mesurer ?
+* http://en.wikipedia.org/wiki/Programming_language#Measuring_language_usage
+********************************************************************************
 forte
 moyenne
 faible
 exotique
+
+***** Type d'utilisation *******************************************************
+classique
+définition de données
+manipulation de données
+requètes
+théorique
+page web dynamiques
 
 ***** Code objet ***************************************************************
 binaire
