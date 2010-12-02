@@ -1,14 +1,14 @@
-Paradigme de programmation
+Qu’est-ce qu’un paradigme de programmation
 
-Une fois défini ce que l'on entend exactement par langage de programmation on se permettra d'utiliser l'expression "langage" seule pour "langage de programmation".
+Une fois défini ce que l’on entend exactement par langage de programmation on se permettra d’utiliser l’expression «langage» seule pour «langage de programmation».
 
-Après un minimum de recherche, force est de constater que la notion de paradigme revient régulièrement lorsqu'il s'agit de décrire un langage de programmation.
-De manière général un paradigme est un mode de représentation d'une réalité quelconque. C'est une manière structurée de voir et de concevoir. Ainsi, un paradigme de programmation est une manière de penser, d'écrire et de structurer un programme et donc par extension son code source. Le code source étant lui-même régit par la syntaxe du langage utilisé, on retombe effectivement sur le fait qu'un langage est particulièrement caractérisé par son (ou ses) paradigme(s) de programmation.
+Après un minimum de recherche, force est de constater que la notion de paradigme revient régulièrement lorsqu’il s’agit de décrire un langage de programmation.
+De manière général un paradigme est un mode de représentation d’une réalité quelconque. C’est une manière structurée de voir et de concevoir. Ainsi, un paradigme de programmation est une manière de penser, d’écrire et de structurer un programme et donc par extension son code source. Le code source étant lui-même régit par la syntaxe du langage utilisé, on retombe effectivement sur le fait qu’un langage est particulièrement caractérisé par son (ou ses) paradigme(s) de programmation.
 
-Les paradigmes de programmation sont très nombreux et à un langage ne correspond pas un unique paradigme. La plupart du temps un langage autorise plusieurs paradigmes voire des paradigmes "dégénérés" dans le sens où toutes les fonctionalité de ces derniers ne sont pas forcément présente dans le langage. Tout ceci rend l'affectation de paradigme à un langage particulièrement ardue et semble être une part importante du travail qu'il nous reste à faire dans l'élaboration de notre carte d'identité.
-A titre d'exemple et parmis les plus connus, citons la programmation orientée objet qui visualise un programme comme un assemblage d'entités (objets) communiquant entre elles, la programmation fonctionnelle où la base du code est la fonction (au sens mathématique du terme). Parmis les moins utilisés citons la programmation par contrainte ou la programmation par contrat.
+Les paradigmes de programmation sont très nombreux et à un langage ne correspond pas un unique paradigme. La plupart du temps un langage autorise plusieurs paradigmes voire des paradigmes «dégénérés» dans le sens où toutes les fonctionalité de ces derniers ne sont pas forcément présente dans le langage. Tout ceci rend l’affectation de paradigme à un langage particulièrement ardue et semble être une part importante du travail qu’il nous reste à faire dans l’élaboration de notre carte d’identité.
+A titre d’exemple et parmis les plus connus, citons la programmation orientée objet qui visualise un programme comme un assemblage d’entités (objets) communiquant entre elles, la programmation fonctionnelle où la base du code est la fonction (au sens mathématique du terme). Parmis les moins utilisés citons la programmation par contrainte ou la programmation par contrat.
 
-À venir, une description plus précise d'un ou deux paradigmes en particulier.
+À venir, une description plus précise d’un ou deux paradigmes en particulier.
 
 Listes de paradigmes :
 http://www.info.ucl.ac.be/~pvr/paradigmes.html
