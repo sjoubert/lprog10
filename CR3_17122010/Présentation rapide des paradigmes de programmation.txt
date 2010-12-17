@@ -1,0 +1,13 @@
+Tour d'horizon des paradigmes de programmation
+
+Il existe un grand nombre de paradigmes de programmation (plusieurs dizaines). Certains sont d'ailleurs sûrement restés inconnus. Le premier d'entre eux et le plus courant, celui dont les premiers langages de programmation se sont inspirés, est la programmation impérative. Ce paradigme décrit les opérations en termes de séquences d'instructions exécutées par l'ordinateur pour modifier l'état d'un programme. La plupart des processeurs fabriqués aujourd'hui fonctionnent sur ce principe. Par la suite, de nombreux langages de programmation se sont développés et ont implémentés de plus en plus de paradigmes différents [1], [2]. Il existe des tentatives de classification des différents paradigmes, mais ils sont tellement différents que cela devient vite compliqué [3].
+
+Certains paradigmes sont comparables à d'autres, tandis que la plupart ne peuvent pas être classés en catégories. Par exemple, on peut dire que la programmation procédurale est comparable à la programmation fonctionnelle. En effet, la première est basée sur l'appel de procédures (c'est-à-dire des fonctions qui ne renvoient rien), alors que la seconde fait appel à des fonctions mathématiques qui s'envoient des résultats les unes aux autres. De la même manière, la programmation par contrainte est comparable à la programmation logique : elles s'appuient toutes les deux sur des relations que vont avoir les entités entre elles (relation contrainte : une variable va évoluer en fonction d'une autre variable, relation factuelle : un fait va avoir des conséquences).
+
+La programmation événementielle est différente de la programmation séquentielle. L'une est constituée de deux boucles qui récupèrent et qui gèrent les événements tandis que l'autre exécute toujours les mêmes instructions. Deux différents paradigmes pourraient également être la programmation itérative et la programmation récursive.
+
+[1] : Historique complet des langages de programmation : http://www.levenez.com/lang/lang.pdf
+[2] : Historique plus concis des langages de programmation : http://people.mandriva.com/~prigaux/language-study/diagram-light.png
+[3] : Taxonomie des principaux paradigmes de programmation : http://www.info.ucl.ac.be/~pvr/paradigmes.html
+
+Pour plus d'informations sur les paradigmes de programmation en général : http://fr.wikipedia.org/wiki/Paradigme_%28programmation%29
