@@ -1,7 +1,7 @@
 Un paradigme très courant : la programmation par abstraction de données
 
 La programmation par abstraction de données repose sur une notion principale : les types abstraits de données ou TAD. Il s'agit de regrouper et manipuler les données d'un programme comme des boites noires [A], [B], [E].
-Du point de vue de l'utilisation, les TADs reposent sur deux règles [C] :
+Du point de vue de l'utilisation, les TAD reposent sur deux règles [C] :
 - Déclarer un type de données représentant un concept
 - Définir le comportement de ce type de données et les manipulations possibles sur celui-ci.
 En revanche, la définition d'un TAD n'est jamais connue d'un utilisateur (ou du moins n'a pas besoin d'être connue).
@@ -15,9 +15,9 @@ struct _IO_FILE;
 typedef struct _IO_FILE FILE;
 Comme quoi on est pas plus avancé après.
 
-Un TAD n'est pas caractérisé par sa structure mais par son comportement et ses possibilités de manipulation. Dans ce sens, on peut dire que la programmation par abstraction de données est u n paradigme parent de la programmation orienté objet. La POO, elle, étend encore plus ce concept (via le principe d'encapsulation) et met l'accent sur les lien de communication entre les objets (méthodes) alors que les TAD sont beaucoup plus orientés manipulation. Il existe de nombreuses structures de données utilisées la plupart du temps comme un TAD. Les plus classiques sont les types "fichier" (comme FILE), les piles, les files ou les arbres.
+Un TAD n'est pas caractérisé par sa structure mais par son comportement et ses possibilités de manipulation. Dans ce sens, on peut dire que la programmation par abstraction de données est un paradigme parent de la programmation orientée objet. Celle-ci étend encore plus ce concept (via le principe d'encapsulation) et met l'accent sur les liens de communication entre les objets (méthodes) alors que les TAD sont beaucoup plus orientés manipulation. Il existe de nombreuses structures de données utilisées la plupart du temps comme un TAD. Les plus classiques sont les types "fichier" (comme FILE), les piles, les files ou les arbres.
 
-Si ce concept de programmation est très largement utilisé, c'est aussi parce de nombreux langages le supportent (ou alors ces langages supportent-ils ce paradigme parce qu'il est très utilisé ?). On a déjà cité le C, il faut rajouter à cela les langages objets (C++, Java, …) et plus généralement l'ensemble des langages permettant au programmeur de définir ses propres types de données (soit une bonne partie des lanages existants) [D].
+Si ce concept de programmation est très largement utilisé, c'est aussi parce de nombreux langages le supportent (ou alors ces langages supportent-ils ce paradigme parce qu'il est très utilisé ?). On a déjà cité le C, il faut ajouter à cela les langages objets (C++, Java, …) et plus généralement l'ensemble des langages permettant au programmeur de définir ses propres types de données (soit une bonne partie des langages existants) [D].
 
 [A] http://dchaffiol.free.fr/info/langages/prg/art_prg_Type_r.htm#AbstractType
 [B] http://dchaffiol.free.fr/info/langages/prg/art_prg_Paradigmes_r.htm
