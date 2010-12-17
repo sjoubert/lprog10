@@ -10,4 +10,4 @@ La programmation événementielle est différente de la programmation séquentie
 [2] : Historique plus concis des langages de programmation : http://people.mandriva.com/~prigaux/language-study/diagram-light.png
 [3] : Taxonomie des principaux paradigmes de programmation : http://www.info.ucl.ac.be/~pvr/paradigmes.html
 
-Pour plus d'informations sur les paradigmes de programmation en général : http://fr.wikipedia.org/wiki/Paradigme_%28programmation%29
+Pour plus d'informations sur les paradigmes de programmation en général : http://en.wikipedia.org/wiki/Programming_paradigm
