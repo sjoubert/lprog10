@@ -1,0 +1,31 @@
+Le turing-complet
+
+Le concept de turing-complétude est apparu suite à l'invention de la machine de Turing en 1936 par Alan Turing. Cette invention a donné le coup d'envoi à la création des machines programmables, et donc aux premiers programmes. De nos jours, on qualifie généralement un langage de programmation de turing-complet s'il peut calculer toutes les fonctions calculables. Nous allons voir que la définition de ce concept n'est pas aussi simple... En premier lieu, nous allons définir ce qu'est une machine de Turing. En second lieu, nous verrons comment cette définition est appliquée aux langages de programmation.
+
+1. La machine de Turing
+
+Ayant été inventée avant l'ordinateur, elle avait pour but de décrire une personne virtuelle qui était censée exécuter une suite d'opérations sur un tableau infini d'un nombre fini de caractères. La machine de Turing est de ce fait composée des éléments suivants :
+- un "ruban" contenant une infinité (vers la droite et vers la gauche) de cases consécutives dans lesquelles sont stockées des symboles appartenant à un alphabet. En général, cet alphabet contient les deux caractères '0' et '1', le premier étant considéré comme le caractère par défaut, ou "blanc" (ce "blanc" est un caractère de référence présent dans tous les alphabets utilisés dans une machine de Turing),
+- une tête de lecture/écriture qui peut lire et écrire dans une case. Elle peut se déplacer d'une case à la fois, vers la droite ou vers la gauche,
+- un registre d'état qui contient l'état courant du système. Il existe toujours un nombre fini d'états. Au début, ce registre contient un "état de départ",
+- une table d'actions composée des différentes instructions décrivant à la machine quel symbole écrire, comment déplacer la tête de lecture (vers la gauche ou vers la droite), et quel est le nouvel état, en fonction de ce que contient la case lue et de l'état précédent. S'il n'y a plus d'actions dans la table, c'est que le programme est terminé.
+
+En pratique, voici comment se comporte une machine de Turing :
+1. lire le symbole qui se trouve dans la case où est située la tête de lecture,
+2. suivant l'état courant et la valeur lue, écrire une nouvelle valeur dans cette case et déplacer la tête de lecture vers la droite ou vers la gauche,
+3. enregistrer le nouvel état du système, puis reprendre la première étape.
+
+On dit d'une machine qu'elle est turing-complète quand elle permet de coder une machine de Turing. Si en outre elle est codable par une machine de Turing, on dit qu'elle est équivalente à une machine de Turing.
+
+Pour plus d'informations : 
+http://fr.wikipedia.org/wiki/Machine_de_Turing
+http://www.journaldunet.com/developpeur/tutoriel/theo/060119-machine-turing-complet.shtml
+
+2. Application aux langages de programmation
+
+On dit d'un langage de programmation qu'il est turing-complet quand il permet de représenter toutes les fonctions calculables au sens de Turing et Church. 
+
+La machine de Turing est abstraite, car le ruban est censé être de longueur infinie alors que la mémoire d'un ordinateur est finie. On devrait donc parler de turing-équivalent
+
+
+Machines de Turing - 2ème §
