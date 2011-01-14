@@ -31,3 +31,7 @@ La turing-complétude n'apporte pas de "pouvoir" supplémentaire à un langage d
 
 Il faut préciser que le terme "turing-complet" n'est pas tout à fait exact, car la mémoire d'une machine ne peut pas être infinie alors qu'une machine de Turing possède un ruban de taille infinie. Cependant, étant donné qu'une telle machine ne peut pas exister, un abus de langage s'est créé.
 
+Pour plus d'informations :
+http://fr.w3support.net/index.php?db=so&id=449014 (discussion à propos des moyens d'évaluation des langages de programmation en termes de turing-complétude)
+http://fr.wikipedia.org/wiki/Lambda-calcul
+
