@@ -1,4 +1,4 @@
-Le turing-complet
+Turing-complet
 
 Le concept de turing-complétude est apparu suite à l'invention de la machine de Turing en 1936 par Alan Turing. Cette invention a donné le coup d'envoi à la création des machines programmables, et donc aux premiers programmes. De nos jours, on qualifie généralement un langage de programmation de turing-complet s'il peut calculer toutes les fonctions calculables. Nous allons voir que la définition de ce concept n'est pas aussi simple... En premier lieu, nous allons définir ce qu'est une machine de Turing. En second lieu, nous verrons comment cette définition est appliquée aux langages de programmation.
 
@@ -15,17 +15,19 @@ En pratique, voici comment se comporte une machine de Turing :
 2. suivant l'état courant et la valeur lue, écrire une nouvelle valeur dans cette case et déplacer la tête de lecture vers la droite ou vers la gauche,
 3. enregistrer le nouvel état du système, puis reprendre la première étape.
 
-On dit d'une machine qu'elle est turing-complète quand elle permet de coder une machine de Turing. Si en outre elle est codable par une machine de Turing, on dit qu'elle est équivalente à une machine de Turing.
-
 Pour plus d'informations : 
 http://fr.wikipedia.org/wiki/Machine_de_Turing
 http://www.journaldunet.com/developpeur/tutoriel/theo/060119-machine-turing-complet.shtml
 
 2. Application aux langages de programmation
 
-On dit d'un langage de programmation qu'il est turing-complet quand il permet de représenter toutes les fonctions calculables au sens de Turing et Church. 
+On dit d'un langage de programmation qu'il est turing-complet quand il permet de représenter toutes les fonctions calculables au sens de Turing et Church. En pratique, il faut que le langage permette d'émuler une machine de Turing, ou une autre machine turing-complète. En général, les langages turing-complets comprennent les possibilités suivantes :
+- l'allocation dynamique de mémoire,
+- la récursivité ou un autre moyen d'exécuter des boucles infinies,
+- l'exécution infinie (pas de garantie de fin de programme),
+- le lambda-calcul (défini par Alonzo Church en 1930).
 
-La machine de Turing est abstraite, car le ruban est censé être de longueur infinie alors que la mémoire d'un ordinateur est finie. On devrait donc parler de turing-équivalent
+La turing-complétude n'apporte pas de "pouvoir" supplémentaire à un langage de programmation. En effet, certains langages faits pour une application spécifique ne sont pas turing-complets et n'ont pas besoin de l'être. Cette notion signifie juste que le langage peut être utilisé pour calculer tout ce que l'on veut. Par exemple, le langage SQL n'est devenu turing-complet qu'en 1999 (avec la récursivité), mais à l'époque il suffisait amplement à ce qu'il était censé faire. Les langages "usuels", comme le JAVA, le C ou le C++ sont en général turing-complet. Des langages très basiques peuvent également être turing-complets (exemple : le Brainfuck).
 
+Il faut préciser que le terme "turing-complet" n'est pas tout à fait exact, car la mémoire d'une machine ne peut pas être infinie alors qu'une machine de Turing possède un ruban de taille infinie. Cependant, étant donné qu'une telle machine ne peut pas exister, un abus de langage s'est créé.
 
-Machines de Turing - 2ème §
