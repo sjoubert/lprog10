@@ -1,0 +1,20 @@
+Typage
+
+L'une des premières choses que l'on apprend dans un langage de programmation (après le classique Hello World!) est l'utilisation des variables. Pour le sujet qui nous intéresse les variables nous mènent à leur type et à ce qu'on appelle le typage d'un langage. Le typage d'un langage possède généralement 3 caractéristiques binaires [1].
+
+Explicite/implicte
+
+Cette caractèristique détermine si le programmeur doit préciser explicitement ou non dans le code source le type d'une variable. Par exemple, si le typage est explicite le code dit clairement «voici une variable a c'est un entier qui vaut 42». C'est la cas notamment du langage C :
+
+int a = 5;
+
+Dans le cas implicite le code dit plutôt «voici une variable a sa valeur est l'entier 5», la différence réside dans le fait que le type de a dépend de ce qu'on lui affecte, par conséquent si la langage n'a pas de typage dynamique une déclaration implicite nécessite une initialisation. La plupart des langages à typage implicite utilise un mécanisme d'inférence de types pour resoudre le type [2], [3]. Exemple en Caml :
+
+let a = 5;;
+
+NB : Le C++ jusqu'à aujourd'hui est un langage à typage explicite cependant cela devrait changer avec l'arrivé du prochain standard (C++0x/C++1x) et l'introduction du mot-clé 'auto' [4].
+
+[1] http://fr.wikipedia.org/wiki/Typage#Typage
+[2] http://en.wikipedia.org/wiki/Type_inference
+[3] www.enseignement.polytechnique.fr/informatique/INF544/06/cours.4.pdf
+[4] http://fr.wikipedia.org/wiki/C%2B%2B1x#Inf.C3.A9rence_de_types
