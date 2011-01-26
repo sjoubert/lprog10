@@ -1,0 +1,37 @@
+Divers
+
+Suivent ci-après diverses notions que nous n'aborderons pas plus en détails par manque de temps ou simplement parce qu'elles ne mérite pas plus de quelques lignes. Le prochain article sera consacré à une première ébauche de carte d'identité et probablement d'un exemple.
+
+Code objet
+
+Un signe caractéristique d'un langage est ce que l'on pourrait appeller la nature de son code objet :
+- Le langage peut être compilé (C, C++, …), dans ce cas le code objet est du binaire
+- Il peut être interprété pur (PHP, Ruby, Perl et tous les langages de scripts), dans ce cas le code objet est également le code source
+- Finalement, le mélange des deux existe aussi (Java pour ne pas le nommer), dans ce cas le code source est compilé en byte-code et ce dernier est interprété, le code objet est donc du byte-code.
+
+Popularité
+
+Il est très difficile de mesurer précisemment la popularité d'un langage faute de définition précise. On peut cependant envisager de prendre en compte :
+- le nombre de ligne de code en production
+- le nombre de personnes "sachant programmer"
+- le nombre d'offre d'emploi pour ce langage
+- le nombre de livres vendus
+- …
+
+On pourrait envisager une classification simple mais difficile à préciser :
+- langages populaires (C, C++, Java,…)
+- langages secondaires
+- langages marginaux (nouveaux langages ou langages qui n'ont pas trouvé de public)
+- langages exotiques (vive le brainfuck et le whitespace \o/)
+
+langpop [5] semble être un bon site de résultats. Il a en tout cas le mérite d'avoir de nombreuses sources différentes.
+
+[5] http://langpop.com/
+
+Identité pure du langage
+
+On entend par là :
+- son nom
+- sa version
+- son logo
+- créateur
