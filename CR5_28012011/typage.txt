@@ -2,7 +2,13 @@ Typage
 
 L'une des premières choses que l'on apprend dans un langage de programmation (après le classique Hello World!) est l'utilisation des variables. Pour le sujet qui nous intéresse les variables nous mènent à leur type et à ce qu'on appelle le typage d'un langage. Le typage d'un langage possède généralement 3 caractéristiques binaires [1].
 
-Explicite/implicte
+Fort/Faible
+
+Cette notion est la plus floue des trois caractéristiques car paersonne n'a encore été en mesure d'en proposer une définition précise et communément admise. Cette notion regroupe entre autre la capacité permise au compilateur de la part du langage de déterminer à la compilation et/ou à l'éxécution des erreurs de typage (du style affectation d'une chaîne de caractères dans un entier). Plus cette détection est forte et possible plus le typage est fort. De même, de nombreux langages autorisent par exemple d'affecter la valeur d'une variable entière dans une variable flottante.
+
+//! @todo dire echelle de valeur, exemple C
+
+Explicite/implicite
 
 Cette caractèristique détermine si le programmeur doit préciser explicitement ou non dans le code source le type d'une variable. Par exemple, si le typage est explicite le code dit clairement «voici une variable a c'est un entier qui vaut 42». C'est la cas notamment du langage C :
 
@@ -18,3 +24,5 @@ NB : Le C++ jusqu'à aujourd'hui est un langage à typage explicite cependant ce
 [2] http://en.wikipedia.org/wiki/Type_inference
 [3] www.enseignement.polytechnique.fr/informatique/INF544/06/cours.4.pdf
 [4] http://fr.wikipedia.org/wiki/C%2B%2B1x#Inf.C3.A9rence_de_types
+
+
