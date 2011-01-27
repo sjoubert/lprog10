@@ -1,35 +1,34 @@
 Typage
 
-L'une des premières choses que l'on apprend dans un langage de programmation (après le classique Hello World!) est l'utilisation des variables. Pour le sujet qui nous intéresse les variables nous mènent à leur type et à ce qu'on appelle le typage d'un langage. Le typage d'un langage possède généralement 3 caractéristiques binaires [1].
+L'une des premières choses que l'on apprend dans un langage de programmation (après le classique Hello World!) est l'utilisation des variables. Pour le sujet qui nous intéresse les variables nous mènent à leur type et à ce qu'on appelle le typage d'un langage. Celui-ci possède généralement trois caractéristiques binaires [1].
 
-Fort/Faible
+Fort / faible
 
-Cette notion est la plus floue des trois caractéristiques car paersonne n'a encore été en mesure d'en proposer une définition précise et communément admise. Cette notion regroupe entre autre la capacité permise au compilateur de la part du langage de déterminer à la compilation et/ou à l'éxécution des erreurs de typage (du style affectation d'une chaîne de caractères dans un entier). Plus cette détection est forte et possible plus le typage est fort. De même, de nombreux langages autorisent par exemple d'affecter la valeur d'une variable entière dans une variable flottante. Il s'agit donc plus d'une échelle de valeur que d'une notion binaire. Pour ce qui est des exemples, le C est faible (conversions implicites autorisée) tandis que le Java est fort (cast obligatoire dans 99% des cas).
+Cette notion est la plus floue des trois caractéristiques car personne n'a encore été en mesure d'en proposer une définition précise et communément admise. Cette notion regroupe entre autres la capacité du compilateur à déterminer à la compilation et/ou à l'exécution les erreurs de typage (du style affectation d'une chaîne de caractères dans un entier). Plus cette détection est forte et possible plus le typage est fort. De même, de nombreux langages autorisent par exemple l'affectation d'une valeur d'une variable entière dans une variable flottante. Il s'agit donc plus d'une échelle de valeur que d'une notion binaire. Pour ce qui est des exemples, le C est faible (conversions implicites autorisées) tandis que le Java est fort (cast obligatoire dans 99% des cas).
 
-Statique/dynamique
+Statique / dynamique
 
-Pour peu que l'on s'intéresse à la compilation la différence entre statique et dynamique ne pose pas de problème. Le typage statique en effectué lors de la compilation. Le typage dynamique est lui vérifié et déterminé à l'exécution. Ce dernier est souvent associé à la possibilité pour une variable de changer de type en cours d'exécution. Ainsi en PHP (qui par ailleurs possède un typage implicite) il est tout à fait possible d'écrire le code suivant :
+Pour peu que l'on s'intéresse à la compilation, la différence entre statique et dynamique ne pose pas de problème. Le typage statique est effectué lors de la compilation. Le typage dynamique est lui vérifié et déterminé à l'exécution. Ce dernier est souvent associé à la possibilité pour une variable de changer de type en cours d'exécution. Ainsi en PHP (qui par ailleurs possède un typage implicite), il est tout à fait possible d'écrire le code suivant :
 
 $var = 42;
 $var = "Un éléPHPant ça trompe énormément";
 
-Mais comme tout mécanisme dynamique qui se respecte cela dégrade les performances.
+Cependant, comme tout mécanisme dynamique qui se respecte, cela dégrade les performances.
 
-Explicite/implicite
+Explicite / implicite
 
-Cette caractèristique détermine si le programmeur doit préciser explicitement ou non dans le code source le type d'une variable. Par exemple, si le typage est explicite le code dit clairement «voici une variable a c'est un entier qui vaut 42». C'est la cas notamment du langage C :
+Cette caractéristique détermine si le programmeur doit préciser explicitement ou non dans le code source le type d'une variable. Par exemple, si le typage est explicite le code dit clairement «voici une variable a, c'est un entier qui vaut 42». C'est la cas notamment du langage C :
 
 int a = 42;
 
-Dans le cas implicite le code dit plutôt «voici une variable a sa valeur est l'entier 42», la différence réside dans le fait que le type de a dépend de ce qu'on lui affecte, par conséquent si la langage n'a pas de typage dynamique une déclaration implicite nécessite une initialisation. La plupart des langages à typage implicite utilise un mécanisme d'inférence de types pour resoudre le type [2], [3]. Exemple en Caml :
+Dans le cas implicite, le code dit plutôt «voici une variable a, sa valeur est l'entier 42». La différence réside dans le fait que le type de a dépend de ce qu'on lui affecte. Par conséquent, si le langage n'a pas de typage dynamique, une déclaration implicite nécessite une initialisation. La plupart des langages à typage implicite utilisent un mécanisme d'inférence de types pour résoudre le type [2], [3]. Exemple en Caml :
 
 let a = 42;;
 
-NB : Le C++ jusqu'à aujourd'hui est un langage à typage explicite cependant cela devrait changer avec l'arrivé du prochain standard (C++0x/C++1x) et l'introduction du mot-clé 'auto' [4].
+NB : Le C++ jusqu'à aujourd'hui est un langage à typage explicite. Cependant cela devrait changer avec l'arrivée du prochain standard (C++0x/C++1x) et l'introduction du mot-clé 'auto' [4].
 
 [1] http://fr.wikipedia.org/wiki/Typage#Typage
 [2] http://en.wikipedia.org/wiki/Type_inference
 [3] www.enseignement.polytechnique.fr/informatique/INF544/06/cours.4.pdf
 [4] http://fr.wikipedia.org/wiki/C%2B%2B1x#Inf.C3.A9rence_de_types
-
 
