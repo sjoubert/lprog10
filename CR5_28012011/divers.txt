@@ -27,6 +27,7 @@ On pourrait envisager une classification simple mais difficile à préciser :
 langpop [5] semble être un bon site de résultats. Il a en tout cas le mérite d'avoir de nombreuses sources différentes.
 
 [5] http://langpop.com/
+[6] http://www.tiobe.com/tpci.htm
 
 Identité pure du langage
 
