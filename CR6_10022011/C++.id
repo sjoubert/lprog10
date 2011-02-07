@@ -1,0 +1,49 @@
+Généralités
+
+    Nom : C++
+    Version : 2008
+    Date de création : 1983
+    Créateur : Bjarne Stroustrup
+    Logo : http://upload.wikimedia.org/wikipedia/commons/5/5b/C_plus_plus.svg
+
+Paradigmes : générique, orienté objet, procédural
+
+Typage : explicite, faible, statique
+
+Divers
+
+    Le C++ est turing-complet.
+    Évaluation : stricte
+    La gestion de la mémoire est laissée aux soins de l'utilisateur.
+
+Fonctionnalités de la bibliothèque standard
+
+    Threads
+    Exceptions
+    Références
+    Constantes
+    Fonctions inline
+    Paramètres par défaut dans les fonctions
+    Espaces de noms
+    Surcharge d'opérateurs
+    ...
+
+Communauté
+
+    Le C++ est le troisième langage de programmation le plus utilisé dans le monde.
+    Implémentations : g++, MinGW, Borland C++ Compiler, Digital Mars, Visual C++, Code::Blocks Studio, Eclipse CDT, NetBeans IDE...
+
+Code
+
+    Code objet : binaire
+    Hello world!
+        #include <iostream> // Commentaire : cette inclusion permet de récupérer la sortie standard
+        int main(void)
+        {
+            /*
+                Commentaire : 'std::' sert à accéder à l'espace de noms std, 
+                dans lequel sont définies les variables cout et endl.
+            */
+            std::cout << "Hello world!" << std::endl;
+            return 0;
+        }
