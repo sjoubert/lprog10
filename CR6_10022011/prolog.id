@@ -1,0 +1,24 @@
+Généralités
+    Nom: Prolog (acronyme de PROgrammation LOgique)
+    Version: 2000
+    Date de création: 1972
+    Créateurs: Alain Colmerauer, Philippe Roussel
+Paradigmes
+    programmation logique 
+    récursivité
+Typage
+    La qualification du typage du prolog n'a pas vraiment de sens puisqu'il n'existe pas réellement de variables. Cependant, si l'on devait absolument le caractérisé par : dynamique, fort, implicite
+Divers
+    Turing complétude: oui
+    Evaluation: paresseuse
+Fonctionnalités de la bibliothèque standard
+    entrées-sorties standards
+Communauté
+    Popularité: Faible (> 30ème place)
+    Implémentations: BProlog, ECLiPSe, GNU Prolog, Poplog Prolog, P#, ...
+Code
+    Code objet source, binaire lorsque les performances comptent, parfois byte-code en fonction de l'implémentation
+    Hello world!
+        ?- write('Hello world!'), nl.
+        Hello world!
+        true.
