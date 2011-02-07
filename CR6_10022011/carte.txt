@@ -1,0 +1,27 @@
+Généralités
+    Nom
+    Version
+    Date de création
+    Créateur(s)
+    Logo
+Paradigmes
+    <impératif |
+     fonctionnel |
+     orienté objet | ...>
+Typage
+    <fort|faible>
+    <statique | dynamique>
+    <explicite | implicite>
+Divers
+    Turing complétude
+    Evaluation
+    Gestion de la mémoire
+Fonctionnalités de la bibliothèque standard
+    <thread |
+     exception | ...>
+Communauté
+    Popularité
+    Implémentations
+Code
+    Code objet <source | binaire | byte-code>
+    Hello world!
