@@ -1,27 +1,39 @@
+Première version d'une carte d'identité des langages de programmation
+
+Ci-dessous un premier jet de notre carte d'identité. On a essayé de ranger les caractéristiques en catégories.
+
 Généralités
     Nom
-    Version
+    Version : souvent une date de sortie, parfois un nom de code
     Date de création
-    Créateur(s)
+    Créateur(s) : personne ou entreprise à l'origine du langage
     Logo
-Paradigmes
+Paradigmes : listes des paradigmes supportés
     <impératif |
      fonctionnel |
      orienté objet | ...>
-Typage
+Typage : caractéristiques du typage
     <fort|faible>
     <statique | dynamique>
     <explicite | implicite>
 Divers
     Turing complétude
-    Evaluation
-    Gestion de la mémoire
-Fonctionnalités de la bibliothèque standard
+    Evaluation : les valeurs sont-elles évaluées de manière paresseuse,…
+    Gestion de la mémoire : la mémoire est-elle laissé à la gestion du programmeur
+Fonctionnalités de la bibliothèque standard : liste des modules présent dans la bbliothèque standard sans autre ajout
     <thread |
      exception | ...>
 Communauté
     Popularité
-    Implémentations
+    Implémentations : liste des principaux compilateurs/interpréteurs du marché
 Code
     Code objet <source | binaire | byte-code>
-    Hello world!
+    Hello world! : l'exemple typique pour la présentation d'un langage
+
+Deux exemples
+
+C++
+<insert C++.id>
+
+Prolog
+<insert prolog.id>
