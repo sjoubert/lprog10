@@ -1,27 +1,45 @@
+Première version d'une carte d'identité des langages de programmation
+
+Ci-dessous un premier jet de notre carte d'identité. On a essayé de ranger les caractéristiques en catégories afin de structurer les notions abordées dans les précédents articles.
+
 Généralités
     Nom
-    Version
+    Version : souvent une date de sortie, parfois un nom de code
     Date de création
-    Créateur(s)
+    Créateur(s) : personne ou entreprise à l'origine du langage
     Logo
-Paradigmes
+Paradigmes : listes des paradigmes supportés [1], [2]
     <impératif |
      fonctionnel |
      orienté objet | ...>
-Typage
-    <fort|faible>
+Typage : caractéristiques du typage [4]
+    <fort | faible>
     <statique | dynamique>
     <explicite | implicite>
 Divers
-    Turing complétude
-    Evaluation
-    Gestion de la mémoire
-Fonctionnalités de la bibliothèque standard
+    Turing complétude [3]
+    Evaluation : les valeurs sont-elles évaluées de manière paresseuse, … Cette notion concerne principalement le mécanisme de transmission des valeurs entre fonctions
+    Gestion de la mémoire : la mémoire est-elle laissé à la gestion du programmeur
+Fonctionnalités de la bibliothèque standard : liste des modules présents dans la bibliothèque standard sans autre ajout
     <thread |
      exception | ...>
 Communauté
-    Popularité
-    Implémentations
+    Popularité [4]
+    Implémentations : liste des principaux compilateurs/interpréteurs du marché
 Code
-    Code objet <source | binaire | byte-code>
-    Hello world!
+    Code objet: source, binaire, byte-code [4]
+    Hello world! : l'exemple typique pour la présentation d'un langage [5]
+
+[1] http://ser-info-02.ec-nantes.fr/users/info3/weblog/e1f06/Langage_et_paradigme_definitions.html
+[2] http://ser-info-02.ec-nantes.fr/users/info3/weblog/0e335/Paradigmes_de_programmation_generalites_et_exemple.html
+[3] http://ser-info-02.ec-nantes.fr/users/info3/weblog/692b5/Questce_quun_langage_turingcomplet_.html
+[4] http://ser-info-02.ec-nantes.fr/users/info3/weblog/62da8/Langages_de_programmation__typage_et_divers.html
+[5] http://www.roesler-ac.de/wolfram/hello.htm
+
+Deux exemples
+
+C++
+<insert C++.id>
+
+Prolog
+<insert prolog.id>
