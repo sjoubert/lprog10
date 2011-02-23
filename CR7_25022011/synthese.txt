@@ -1,10 +1,10 @@
 Synthèse
 
-Dans le cadre du projet de veille technologique, nous avons procédé à une description de ce qu'est un langage de programmation, dans le but de pouvoir les classer dans ce que nous avons appelé une carte d'identité. Après avoir détaillé le sujet de façon plus précise, nous avons donc décrit un certain nombre des caractéristiques les plus importantes d'un langage de programmation. Finalement, nous avons abouti à un squelette que nous avons utilisé pour décrire quelques langages.
+Dans le cadre du projet de veille technologique, nous avons procédé à une description de ce qu'est un langage de programmation, dans le but de pouvoir les classer dans ce que nous avons appelé une carte d'identité. Après avoir détaillé le sujet de façon plus précise, nous avons donc décrit un certain nombre des caractéristiques les plus importantes d'un langage de programmation. Finalement, nous avons abouti à un squelette que nous avons utilisé pour décrire quelques exemples.
 
 La présentation du sujet et son lancement à travers un plan d'action ont été faites dans le premier article [1].
-Le deuxième article consistait à cerner le domaine d'étude : nous avons décidé de ne pas tenir compte des langages de requête (exemple : SQL) ou de balisage (exemple : HTML) dans la définition de l'expression "langage de programmation" [2].
-Par la suite, nous avons défini les différentes caractéristiques que nous avons identifiées comme étant inhérentes à la notion de langage de programmation. Ainsi, nous avons été amené à parler des paradigmes de programmation [2] [3], de la turing-complétude [4], des différentes sortes de typage [5].
+Le deuxième article a consisté à cerner le domaine d'étude : nous avons décidé de ne pas tenir compte des langages de requête (exemple : SQL) ou de balisage (exemple : HTML) dans la définition de l'expression "langage de programmation" [2].
+Par la suite, nous avons défini les différentes caractéristiques que nous avons identifiées comme étant inhérentes à la notion de langage de programmation. Ainsi, nous avons été amené à parler des paradigmes de programmation [2] [3], de la turing-complétude [4], et des différentes sortes de typage [5].
 Finalement, le dernier article paru contenait le squelette final de la carte d'identité, ainsi que deux exemples appliqués aux langages C++ et Prolog [6].
 
 Cette étude, répartie sur quatre mois, nous a permis d'élargir nos connaissances en matière de programmation. En effet, les notions abordées sont abstraites, et on a tendance à ne pas les remarquer lorsqu'on les utilise. La carte d'identité, si elle est bien utilisée, va permettre aux personnes qui cherchent un langage de programmation pour un projet bien spécifique de choisir celui qui leur conviendra le mieux, à condition d'avoir une base de données bien remplie.
@@ -19,7 +19,7 @@ Contexte : préciser les limites de l'étude
 
 Caractéristiques d'un langage
 
-Structuration et explication de l'ensemble des caractéristiques que l'on a mises en évidence dans le précédent article [6].
+Structuration et explication de l'ensemble des caractéristiques mises en évidence dans le précédent article [6].
 
 Cartes d'identités
 
