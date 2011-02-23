@@ -1,0 +1,19 @@
+Plan du rapport
+
+Introduction
+
+Problématique : définition du sujet
+Contexte : préciser les limites de l'étude
+
+Caractéristiques d'un langage
+
+Structuration et explication de l'ensemble des caractéristiques que l'on a mises en évidence dans le précédent article [1].
+
+Cartes d'identités
+
+Quelques exemples de cartes d'identités sur des langages connus et moins connus.
+
+Conclusion
+
+[1] http://ser-info-02.ec-nantes.fr/users/info3/weblog/451a5/Une_carte_didentite_des_langages_de_programmation.html
+
