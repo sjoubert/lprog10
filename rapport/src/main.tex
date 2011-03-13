@@ -6,6 +6,36 @@
 \usepackage{lmodern} % Pour la police
 \usepackage{titling} % Pour récupérer les info de la page de titre
 \usepackage[plain]{fullpage} % Utilisation de toute la page
+\usepackage{color} % Couleur
+\usepackage{graphicx} % Images
+\usepackage{hyperref} % Liens
+\hypersetup{
+	colorlinks,
+	citecolor=blue,
+	filecolor=black,
+	linkcolor=blue,
+	urlcolor=blue
+}
+
+\usepackage{listings} % Codes
+\lstset{
+frame=single,
+frameround=tttt,
+keywordstyle=\bfseries \ttfamily \color{blue},
+commentstyle=\color[rgb]{0.133,0.545,0.133},
+stringstyle=\ttfamily \color{red},
+showstringspaces=true,
+tabsize=4,
+basicstyle=\footnotesize \ttfamily,
+numberstyle=\footnotesize \ttfamily,
+numbers=left,
+breaklines=true,
+breakatwhitespace=true,
+aboveskip={\baselineskip},
+belowskip={\baselineskip},
+columns=fixed,
+extendedchars=true,
+} 
 
 %% Personnalisation du pied de page et de l'en-tete %%
 \usepackage{fancyhdr}
@@ -41,6 +71,10 @@ Vers une carte d'identité des langages de programmation}
 \include{caracteristiques}
 \include{cartes}
 \include{conclusion}
+
+%\addcontentsline{toc}{section}{Références}
+\bibliographystyle{unsrt}
+\bibliography{biblio}
 
 \end{document}
 
