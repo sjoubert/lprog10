@@ -5,7 +5,15 @@
 \usepackage[T1]{fontenc} % Pour la police
 \usepackage{lmodern} % Pour la police
 \usepackage{graphicx} % Affichage d'images
-\usepackage{url} % Liens hypertexte
+\usepackage{color} % Couleur
+\usepackage{hyperref} % Liens
+\hypersetup{
+	colorlinks,
+	citecolor=blue,
+	filecolor=black,
+	linkcolor=blue,
+	urlcolor=blue
+}
 
 \usetheme{Warsaw}
 \setbeamertemplate{navigation symbols}{}
@@ -17,7 +25,12 @@
 
 \begin{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\frame{\titlepage}
+\frame{
+\maketitle
+
+\includegraphics[scale=0.4]{img/cc}\\
+\tiny Œuvre mise à disposition selon les termes de la \href{http://creativecommons.org/licenses/by-nc-sa/3.0/}{Licence Creative Commons BY-NC-SA 3.0} \normalsize
+}
 
 \frame{\frametitle{Sommaire}
 \tableofcontents
