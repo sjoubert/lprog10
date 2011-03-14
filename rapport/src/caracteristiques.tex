@@ -44,6 +44,7 @@ Le résultat de l'étude se résume à la carte d'identité suivante :\\
 	\item \hyperref[hello]{Hello world!}\\
 	\end{itemize}
 \end{itemize}
+\renewcommand{\labelitemi}{\normalfont\bfseries\textendash}
 
 Les précédentes caractéristiques sont explicitées ci-après.
 
@@ -60,8 +61,8 @@ Le nom usuel du langage. Exemples : Prolog, C, Java, …
 
 Un langage de programmation possède souvent différentes révisions, au fur et à mesure de son évolution. Les principales méthodes d'appellation de version sont :
 \begin{itemize}
-\item l'incrémentation du numéro de version (exemples : Java 1.3, 1.4, 5, 6)
-\item la date de normalisation (exemples : C89, C90, C99)
+\item l'incrémentation du numéro de version (exemples : Java 1.3, 1.4, 5, 6),
+\item la date de normalisation (exemples : C89, C90, C99).
 \end{itemize}
 
 \subsubsection{Date de création}
@@ -94,14 +95,14 @@ Java & Python & Go
 \subsubsection{Définition}
 
 Après un minimum de recherche, force est de constater que la notion de paradigme revient régulièrement lorsqu’il s’agit de décrire un langage de programmation.
-De manière générale un paradigme est un mode de représentation d’une réalité quelconque. C’est une manière structurée de voir et de concevoir. Ainsi, un paradigme de programmation est une manière de penser, d’écrire et de structurer un programme et donc par extension son code source. Le code source étant lui-même régit par la syntaxe du langage utilisé, on retombe effectivement sur le fait qu’un langage est particulièrement caractérisé par son (ou ses) paradigme(s) de programmation.\\
+De manière générale un paradigme est un mode de représentation d’une réalité quelconque. C’est une manière structurée de voir et de concevoir. Ainsi, un paradigme de programmation est une manière de penser, d’écrire et de structurer un programme et donc par extension son code source. Celui-ci étant lui-même régit par la syntaxe du langage utilisé, on retombe effectivement sur le fait qu’un langage est particulièrement caractérisé par son (ou ses) paradigme(s) de programmation.\\
 
-Les paradigmes de programmation sont très nombreux et à un langage ne correspond pas un unique paradigme. La plupart du temps un langage autorise plusieurs paradigmes voire des paradigmes «dégénérés» dans le sens où toutes les fonctionalité de ces derniers ne sont pas forcément présente dans le langage. Tout ceci rend l’affectation de paradigme à un langage particulièrement ardue et semble être une part importante du travail qu’il nous reste à faire dans l’élaboration de notre carte d’identité.
-À titre d’exemple et parmis les plus connus, citons la programmation orientée objet qui visualise un programme comme un assemblage d’entités (objets) communiquant entre elles, la programmation fonctionnelle où la base du code est la fonction (au sens mathématique du terme). Parmis les moins utilisés citons la programmation par contrainte ou la programmation par contrat.
+Les paradigmes de programmation sont très nombreux et à un langage ne correspond pas un unique paradigme. La plupart du temps un langage autorise plusieurs paradigmes voire des paradigmes «dégénérés» dans le sens où toutes les fonctionalité de ces derniers ne sont pas forcément présentes dans le langage. Tout ceci rend l’affectation de paradigmes à un langage particulièrement ardue.
+À titre d’exemple et parmi les plus connus, citons la programmation orientée objet qui visualise un programme comme un assemblage d’entités (objets) communiquant entre elles, ou la programmation fonctionnelle où la base du code est la fonction (au sens mathématique du terme). Parmi les moins utilisés citons la programmation par contrainte ou la programmation par contrat.
 
 \subsubsection{Tour d'horizon}
 
-Il existe un grand nombre de paradigmes de programmation (plusieurs dizaines). Certains sont d'ailleurs surement restés inconnus. Le premier d'entre eux et le plus courant, celui dont les premiers langages de programmation se sont inspirés, est la programmation impérative. Ce paradigme décrit les opérations en termes de séquences d'instructions exécutées par l'ordinateur pour modifier l'état d'un programme. La plupart des processeurs fabriqués aujourd'hui fonctionnent sur ce principe. Par la suite, de nombreux langages de programmation se sont développés et ont implémentés de plus en plus de paradigmes différents \cite{bib_levenez}, \cite{bib_mandriva}. Il existe des tentatives de classification des différents paradigmes, mais ils sont tellement différents que cela devient vite compliqué \cite{bib_ucl}.\\
+Il existe un grand nombre de paradigmes de programmation (plusieurs dizaines). Certains sont d'ailleurs surement restés inconnus. Le premier d'entre eux et le plus courant, celui dont les premiers langages de programmation se sont inspirés, est la programmation impérative. Ce paradigme décrit les opérations en termes de séquences d'instructions exécutées par l'ordinateur pour modifier l'état d'un programme. La plupart des processeurs fabriqués aujourd'hui fonctionnent sur ce principe. Par la suite, de nombreux langages de programmation se sont développés et ont implémentés de plus en plus de paradigmes différents. \cite{bib_levenez}, \cite{bib_mandriva} Il existe des tentatives de classification des différents paradigmes, mais ils sont tellement différents que cela devient vite compliqué. \cite{bib_ucl}\\
 
 Certains paradigmes sont comparables à d'autres, tandis que la plupart ne peuvent pas être classés en catégories. Par exemple, on peut dire que la programmation procédurale est comparable à la programmation fonctionnelle. En effet, la première est basée sur l'appel de procédures (c'est-à-dire des fonctions qui ne renvoient rien), alors que la seconde fait appel à des fonctions mathématiques qui s'envoient des résultats les unes aux autres. De la même manière, la programmation par contrainte est comparable à la programmation logique : elles s'appuient toutes les deux sur des relations que vont avoir les entités entre elles (relation contrainte : une variable va évoluer en fonction d'une autre variable, relation factuelle : un fait va avoir des conséquences).\\
 
@@ -112,12 +113,12 @@ Il en existe donc une grande panoplie. Pour fixer les idées suit un exemple.
 
 \subsubsection{Un paradigme courant : l'abstraction de données}
 
-La programmation par abstraction de données repose sur une notion principale : les types abstraits de données ou TAD. Il s'agit de regrouper et manipuler les données d'un programme comme des boites noires. \cite{bib_dchaffiol1}, \cite{bib_dchaffiol2}, \cite{bib_wiki_adt}\\
+La programmation par abstraction de données repose sur une notion principale : les types abstraits de données ou TAD. Il s'agit de regrouper et manipuler les données d'un programme comme des boîtes noires. \cite{bib_dchaffiol1}, \cite{bib_dchaffiol2}, \cite{bib_wiki_adt}\\
 
 Du point de vue de l'utilisation, les TAD reposent sur deux règles \cite{bib_reunion} :
 \begin{itemize}
-\item déclarer un type de données représentant un concept
-\item définir le comportement de ce type de données et les manipulations possibles sur celui-ci\\
+\item déclarer un type de données représentant un concept,
+\item définir le comportement de ce type de données et les manipulations possibles sur celui-ci.\\
 \end{itemize}
 
 En revanche, la définition d'un TAD n'est jamais connue d'un utilisateur (ou du moins n'a pas besoin d'être connue).\\
@@ -125,11 +126,11 @@ En revanche, la définition d'un TAD n'est jamais connue d'un utilisateur (ou du
 Prenons par exemple un TAD présent dans la bibliothèque standard du langage C : FILE.
 Tout programmeur C a déjà vu et utilisé ce type. Il s'agit en effet d'un TAD :
 \begin{itemize}
-\item on sait qu'il existe un type FILE représentant un fichier mémoire
-\item on connait son comportement : il se comporte de manière à permettre un accès aux données d'un fichier et surtout on sait manipuler ce type (via des fonctions en C comme fopen, fclose, fprintf, …)\\
+\item on sait qu'il existe un type FILE représentant un fichier mémoire,
+\item on connait son comportement : il se comporte de manière à permettre un accès aux données d'un fichier et surtout on sait manipuler ce type (via des fonctions en C comme fopen, fclose, fprintf, …).\\
 \end{itemize}
 
-En revanche, personne n'a à savoir comment est défini FILE pour pouvoir l'utiliser. Et d'ailleurs, la définition est quasiment impossible à trouver. Sur ma machine, je n'ai réussi qu'à trouver la déclaration dans stdio.h :
+En revanche, personne n'a à savoir comment est défini FILE pour pouvoir l'utiliser. Et d'ailleurs, la définition est quasiment impossible à trouver. Sur une machine, on ne trouve que la déclaration suivante dans stdio.h :
 
 \begin{lstlisting}[language=c]
 struct _IO_FILE;
@@ -140,7 +141,7 @@ Comme quoi on n'est pas plus avancé.\\
 
 Un TAD n'est pas caractérisé par sa structure mais par son comportement et ses possibilités de manipulation. Dans ce sens, on peut dire que la programmation par abstraction de données est un paradigme parent de la programmation orientée objet. Celle-ci étend encore plus ce concept (via le principe d'encapsulation) et met l'accent sur les liens de communication entre les objets (méthodes) alors que les TAD sont beaucoup plus orientés manipulation. Il existe de nombreuses structures de données utilisées la plupart du temps comme un TAD. Les plus classiques sont les types «fichier» (comme FILE), les piles, les files ou les arbres.\\
 
-Si ce concept de programmation est très largement utilisé, c'est aussi parce de nombreux langages le supportent (ou alors ces langages supportent-ils ce paradigme parce qu'il est très utilisé ?). On a déjà cité le C, il faut ajouter à cela les langages objets (C++, Java, …) et plus généralement l'ensemble des langages permettant au programmeur de définir ses propres types de données (soit une bonne partie des langages existants). \cite{bib_univnc}
+Si ce concept de programmation est très largement utilisé, c'est aussi parce que de nombreux langages le supportent (ou alors ces langages supportent-ils ce paradigme parce qu'il est très utilisé ?). On a déjà cité le C, il faut ajouter à cela les langages objets (C++, Java, …) et plus généralement l'ensemble des langages permettant au programmeur de définir ses propres types de données (soit une bonne partie des langages existants). \cite{bib_univnc}
 
 \subsection{Typage}
 \label{typage}
@@ -150,7 +151,7 @@ L'une des premières choses que l'on apprend dans un langage de programmation (a
 \subsubsection{Fort | faible}
 \label{fort_faible}
 
-Cette notion est la plus floue des trois caractéristiques car personne n'a encore été en mesure d'en proposer une définition précise et communément admise. Cette notion regroupe entre autres la capacité du compilateur à déterminer à la compilation et/ou à l'exécution les erreurs de typage (du style affectation d'une chaîne de caractères dans un entier). Plus cette détection est forte et possible plus le typage est fort. De même, de nombreux langages autorisent par exemple l'affectation d'une valeur d'une variable entière dans une variable flottante. Il s'agit donc plus d'une échelle de valeur que d'une notion binaire. Pour ce qui est des exemples, le C est faible (conversions implicites autorisées) tandis que le Java est fort (cast obligatoire dans 99\% des cas).
+Cette notion est la plus floue des trois caractéristiques car personne n'a encore été en mesure d'en proposer une définition précise et communément admise. Cette notion regroupe entre autre la capacité du compilateur à déterminer à la compilation et/ou à l'exécution les erreurs de typage (du style affectation d'une chaîne de caractères dans un entier). Plus cette détection est forte et possible plus le typage est fort. De même, de nombreux langages autorisent par exemple l'affectation d'une valeur d'une variable entière dans une variable flottante. Il s'agit donc plus d'une échelle de valeur que d'une notion binaire. Pour ce qui est des exemples, le C est faible (conversions implicites autorisées) tandis que le Java est fort (cast obligatoire dans 99\% des cas).
 
 \subsubsection{Statique | dynamique}
 \label{statique_dynamique}
@@ -162,7 +163,7 @@ $var = 42;
 $var = "Un elePHPant ca trompe enormement";
 \end{lstlisting}
 
-Cependant, comme tout mécanisme dynamique qui se respecte, cela dégrade les performances.
+Cependant, comme tout mécanisme dynamique, cela dégrade les performances.
 
 \subsubsection{Explicite | implicite}
 \label{explicite_implicite}
@@ -193,10 +194,10 @@ Le concept de turing-complétude est apparu suite à l'invention de la machine d
 
 Ayant été inventée avant l'ordinateur, elle avait pour but de décrire une personne virtuelle qui était censée exécuter une suite d'opérations sur un tableau infini d'un nombre fini de caractères. La machine de Turing est de ce fait composée des éléments suivants :
 \begin{itemize}
-\item un «ruban» contenant une infinité (vers la droite et vers la gauche) de cases consécutives dans lesquelles sont stockées des symboles appartenant à un alphabet. En général, cet alphabet contient les deux caractères '0' et '1', le premier étant considéré comme le caractère par défaut, ou «blanc» (ce «blanc» est un caractère de référence présent dans tous les alphabets utilisés dans une machine de Turing)
-\item une tête de lecture/écriture qui peut lire et écrire dans une case. Elle peut se déplacer d'une case à la fois, vers la droite ou vers la gauche
-\item un registre d'état qui contient l'état courant du système. Il existe toujours un nombre fini d'états. Au début, ce registre contient un «état de départ»
-\item une table d'actions composée des différentes instructions décrivant à la machine quel symbole écrire, comment déplacer la tête de lecture (vers la gauche ou vers la droite), et quel est le nouvel état, en fonction de ce que contient la case lue et de l'état précédent. S'il n'y a plus d'actions dans la table, c'est que le programme est terminé\\
+\item un «ruban» contenant une infinité (vers la droite et vers la gauche) de cases consécutives dans lesquelles sont stockées des symboles appartenant à un alphabet. En général, cet alphabet contient les deux caractères '0' et '1', le premier étant considéré comme le caractère par défaut, ou «blanc» (ce «blanc» est un caractère de référence présent dans tous les alphabets utilisés dans une machine de Turing),
+\item une tête de lecture/écriture qui peut lire et écrire dans une case. Elle peut se déplacer d'une case à la fois, vers la droite ou vers la gauche,
+\item un registre d'état qui contient l'état courant du système. Il existe toujours un nombre fini d'états. Au début, ce registre contient un «état de départ»,
+\item une table d'actions composée des différentes instructions décrivant à la machine quel symbole écrire, comment déplacer la tête de lecture (vers la gauche ou vers la droite), et quel est le nouvel état, en fonction de ce que contient la case lue et de l'état précédent. S'il n'y a plus d'actions dans la table, c'est que le programme est terminé.\\
 \end{itemize}
 
 \begin{center}
@@ -208,22 +209,22 @@ Représentation imagée d'une machine de Turing
 
 En pratique, voici comment se comporte une machine de Turing \cite{bib_wiki_turing} \cite{bib_jdn} :
 \begin{enumerate}
-\item lire le symbole qui se trouve dans la case où est située la tête de lecture
-\item suivant l'état courant et la valeur lue, écrire une nouvelle valeur dans cette case et déplacer la tête de lecture vers la droite ou vers la gauche
-\item enregistrer le nouvel état du système, puis reprendre la première étape
+\item lire le symbole qui se trouve dans la case où est située la tête de lecture,
+\item suivant l'état courant et la valeur lue, écrire une nouvelle valeur dans cette case et déplacer la tête de lecture vers la droite ou vers la gauche,
+\item enregistrer le nouvel état du système, puis reprendre la première étape.
 \end{enumerate}
 
 \paragraph{Application aux langages de programmation}
 
 On dit d'un langage de programmation qu'il est turing-complet quand il permet de représenter toutes les fonctions calculables au sens de Turing et Church. \cite{bib_w3support} \cite{bib_wiki_lambda} En pratique, il faut que le langage permette d'émuler une machine de Turing, ou une autre machine turing-complète. En général, les langages turing-complets comprennent les possibilités suivantes :
 \begin{itemize}
-\item l'allocation dynamique de mémoire
-\item la récursivité ou un autre moyen d'exécuter des boucles infinies
-\item l'exécution infinie (pas de garantie de fin de programme)
-\item le lambda-calcul (défini par Alonzo Church en 1930)\\
+\item l'allocation dynamique de mémoire,
+\item la récursivité ou un autre moyen d'exécuter des boucles infinies,
+\item l'exécution infinie (pas de garantie de fin de programme),
+\item le lambda-calcul (défini par Alonzo Church en 1930).\\
 \end{itemize}
 
-La turing-complétude n'apporte pas de «pouvoir» supplémentaire à un langage de programmation. En effet, certains langages faits pour une application spécifique ne sont pas turing-complets et n'ont pas besoin de l'être. Cette notion signifie juste que le langage peut être utilisé pour calculer tout ce que l'on veut. Par exemple, le langage SQL n'est devenu turing-complet qu'en 1999 (avec la récursivité), mais à l'époque il suffisait amplement à ce qu'il était censé faire. Les langages «usuels», comme le Java, le C ou le C++ sont en général turing-complet. Des langages très basiques peuvent également être turing-complets (exemple : le Brainfuck).\\
+La turing-complétude n'apporte pas de «pouvoir» supplémentaire à un langage de programmation. En effet, certains langages faits pour une application spécifique ne sont pas turing-complets et n'ont pas besoin de l'être. Cette notion signifie juste que le langage peut être utilisé pour calculer tout ce que l'on veut. Par exemple, le langage SQL n'est devenu turing-complet qu'en 1999 (avec la récursivité), mais à l'époque il suffisait amplement à ce qu'il était censé faire. Les langages «usuels», comme le Java, le C ou le C++ sont en général turing-complet. Des langages très basiques peuvent également être turing-complets (exemple : le Brainfuck). \cite{bib_brainfuck}\\
 
 Il faut préciser que le terme «turing-complet» n'est pas tout à fait exact, car la mémoire d'une machine ne peut pas être infinie alors qu'une machine de Turing possède un ruban de taille infinie. Cependant, étant donné qu'une telle machine ne peut pas exister, un abus de langage s'est créé.
 
@@ -232,8 +233,8 @@ Il faut préciser que le terme «turing-complet» n'est pas tout à fait exact, 
 
 Cette notion définit la méthode d'évaluation des expressions. Il existe deux stratégies d'évaluation :
 \begin{itemize}
-\item l'évaluation stricte : l'expression est évaluée au plus tôt
-\item l'évaluation paresseuse : l'expression est évaluée lorsqu'on a besoin de sa valeur\\
+\item l'évaluation stricte : l'expression est évaluée au plus tôt,
+\item l'évaluation paresseuse : l'expression est évaluée lorsqu'on a besoin de sa valeur.\\
 \end{itemize}
 
 La plupart des langages de programmation utilisent l'évaluation stricte.
@@ -243,8 +244,8 @@ La plupart des langages de programmation utilisent l'évaluation stricte.
 
 Elle peut être de deux sortes :
 \begin{itemize}
-\item la gestion de la mémoire est laissée aux soins de l'utilisateur, exemple : les fonctions malloc et free en C
-\item la gestion de la mémoire est gérée par l'implémentation du langage, exemple : le «garbage collector» de la machine virtuelle de Java
+\item la gestion de la mémoire est laissée aux soins de l'utilisateur, exemple : les fonctions malloc et free en C,
+\item la gestion de la mémoire est gérée par l'implémentation du langage, exemple : le «garbage collector» de la machine virtuelle de Java.
 \end{itemize}
 
 \subsection{Communauté}
@@ -255,19 +256,19 @@ Elle peut être de deux sortes :
 
 Il est très difficile de mesurer objectivement la popularité d'un langage faute de définition précise. On peut cependant envisager de prendre en compte :
 \begin{itemize}
-\item le nombre de ligne de code en production
-\item le nombre de personnes «sachant programmer»
-\item le nombre d'offres d'emploi pour ce langage
-\item le nombre de livres vendus
+\item le nombre de lignes de code en production,
+\item le nombre de personnes «sachant programmer»,
+\item le nombre d'offres d'emploi pour ce langage,
+\item le nombre de livres vendus.
 \item …\\
 \end{itemize}
 
 On pourrait envisager une classification simple mais difficile à préciser :
 \begin{itemize}
-\item langages populaires (C, C++, Java, …)
-\item langages secondaires
-\item langages marginaux (nouveaux langages ou langages qui n'ont pas trouvé de public)
-\item langages exotiques (Brainfuck et Whitespace)\\
+\item langages populaires (C, C++, Java, …),
+\item langages secondaires,
+\item langages marginaux (nouveaux langages ou langages qui n'ont pas trouvé de public),
+\item langages exotiques (Brainfuck et Whitespace).\\
 \end{itemize}
 
 Tiobe \cite{bib_tiobe} est un site qui présente un classement des langages les plus populaires, ainsi que leur évolution.
@@ -286,9 +287,9 @@ Une implémentation d'un langage est un moyen utilisé par l'ordinateur de lire 
 
 Un signe caractéristique d'un langage est ce que l'on pourrait appeler la nature de son code objet :
 \begin{itemize}
-\item le langage peut être compilé (C, C++, …), dans ce cas le code objet est du binaire
-\item il peut être interprété pur (PHP, Ruby, Perl et tous les langages de scripts), dans ce cas le code objet est également le code source
-\item finalement, le mélange des deux existe aussi (Java par exemple), dans ce cas le code source est compilé en byte-code et ce dernier est interprété, le code objet est donc du byte-code
+\item le langage peut être compilé (C, C++, …), dans ce cas le code objet est du binaire,
+\item il peut être interprété pur (PHP, Ruby, Perl et tous les langages de scripts), dans ce cas le code objet est également le code source,
+\item finalement, le mélange des deux existe aussi (Java par exemple), dans ce cas le code source est compilé en byte-code et ce dernier est interprété, le code objet est donc du byte-code.
 \end{itemize}
 
 \subsubsection{Hello world!}
